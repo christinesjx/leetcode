@@ -8,14 +8,21 @@ Given an array nums of n integers, are there elements a, b, c in nums such that 
 
         Example:
 
-        Given array nums = [-1, 0, 1, 2, -1, -4],
+            Given array nums = [-1, 0, 1, 2, -1, -4],
 
-        A solution set is:
-        [
-        [-1, 0, 1],
-        [-1, -1, 2]
-        ]
+            A solution set is:
+            [
+            [-1, 0, 1],
+            [-1, -1, 2]
+            ]
 
+*/
+
+
+import java.util.*;
+
+public class ThreeSum {
+/*
 
        nums    sort        target       low         high
         -1      -4                      -4
@@ -27,13 +34,8 @@ Given an array nums of n integers, are there elements a, b, c in nums such that 
 
 
 
+
 */
-
-
-import java.util.*;
-
-public class ThreeSum {
-
 
     public List<List<Integer>> threeSum(int[] nums) {
 
